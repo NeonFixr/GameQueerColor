@@ -1,0 +1,274 @@
+
+/*  Autorx: Desa Yago Sanchis
+    Versión: 1.0 */
+
+@font-face {
+    font-family: 'Pretendo Regular'; 
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pretendo Regular'), url('/css/font/Pretendo.woff') format('woff');
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Pretendo Regular';
+    margin: 0 0 0 0;
+}
+#console {
+    background-color:  #774196;
+    border-radius: 8px 8px 72px 72px / 8px 8px 35px 35px;
+    width: 220px;
+    height: 360px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    box-shadow:  1px 9px 9px 39px #662691 inset, 5px 5px 10px 1px rgb(39, 29, 39), 5px 5px 10px 1px rgb(224, 105, 228);
+    justify-content: center;
+}
+#sc-ext {
+    background: linear-gradient(100deg, #35373b, #171717);
+    width: 190px;
+    height: 158px;
+    border: 1px solid black;
+    border-radius: 6% 6% 37% 37% / 5% 5% 5% 5% ;
+    margin: auto;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+}
+#sc-int {
+
+    display:flex;
+    position: relative;
+    width: 120px;
+    height: 110px;
+    border: 2px inset rgb(94, 92, 92);
+    margin: auto;
+    margin-top: -26%; 
+}
+#reddot {
+    color: #e41c15;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 25%;   
+}
+#sym {
+    color: silver;
+    position: relative;
+    font-family: Arial;
+    font-weight:bold;
+    font-size: 7px;
+    margin: auto;
+    margin-top: -6.5%;
+    margin-left: 6%;
+}
+#power {
+    color: silver;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 5px;
+    position:absolute;
+    margin-left: 3%;
+}
+#logo1 {
+    color: silver;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 20%;
+}
+#logo2 {
+    font-family: 'Happy markers', sans-serif;
+    font-stretch: condensed;
+    font-size: 10px;
+    font-style: oblique ;
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 62%;
+}
+#logon {
+    font-style: inset rgb(62, 41, 68);
+    font-weight: bold;
+    font-size: 7px;
+    border: 2px inset rgb(122, 119, 119);
+    border-radius: 60px;
+    border-color: rgb(51, 35, 56);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 39%;
+}
+#right-left {
+    background-color: #35373b; 
+    background: linear-gradient(100deg, #35373b, #171717);
+    width: 53px;
+    height: 16px;
+    border-radius: 5px;
+    position: absolute;
+	border: 1px groove rgb(20, 20, 20);
+    margin-top: 24%;
+    margin-left: 7.5px;
+    align-content: center;
+}
+#up-down {
+    text-shadow: #444343 0.5px 0.5px 0.5px;
+    background-color: #35373b; 
+    background: linear-gradient(100deg, #35373b, #171717);
+    width: 16px;
+    height: 55px;
+    border-radius: 5px;
+    position: absolute;
+	border: 1px groove rgb(20, 20, 20);
+    margin-top: 15%;
+    margin-left: 12%;  
+}
+#cent {
+    background-color: #35373b; 
+    background: linear-gradient(100deg, #35373b, #171717);
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    opacity: 0.5;
+	border: 1px solid #35373b;
+    margin-top: 24%;
+    margin-left: 27px;
+    justify-content: center;
+}
+#circ {
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    opacity: 0.5;
+    font-size: 30px;
+    margin-top: 19.5%;
+    margin-left: 26px;
+    justify-content: center;
+}
+#r-l {
+    text-shadow: #444343 0.5px 0.5px 0.5px;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    font-size: 16px;
+    margin-top: 24%;
+    margin-left: 9px;
+    justify-content: center;
+}
+#a-button {
+    border-radius: 100px;
+	background-color: #35373b;
+    background: linear-gradient(100deg, #35373b, #171717);
+	color: inset rgb(20, 20, 20);
+	width: 20px;
+	height: 20px;
+    position: absolute;
+	border: 1px groove rgb(20, 20, 20);
+    margin-top: 20%;
+    margin-left: 172px;
+}
+#a-a {
+    text-shadow: #444343 0.5px 0.5px 0.5px;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 21.5%;
+    margin-left: 179px;
+    position: relative;
+}
+#b-button {
+    text-align:center;
+    text-indent: 6%;
+    font-family: arial;
+    font-size: 14px;
+    border-radius: 100px;
+	background-color: #35373b;
+    background: linear-gradient(100deg, #35373b, #171717);
+	color: inset rgb(20, 20, 20);
+	width: 20px;
+	height: 20px;
+    position: absolute;
+	border: 1px groove rgb(20, 20, 20);
+    margin-left: 140px;
+}
+#b-b {
+    text-shadow: #444343 0.5px 0.5px 0.5px;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 1.5%;
+    margin-left: 147px;
+    position: relative;
+}
+#select {
+    background-color: #35373b; 
+    background: linear-gradient(100deg, #35373b, #171717);
+    width: 14px;
+    height: 5px;
+    border-radius: 39%;
+    position: relative;
+	border: 1px groove rgb(20, 20, 20);
+    margin-top: 50px;
+    margin-left: 85px;
+    align-content: center;
+}
+#start {
+    background-color: #35373b; 
+    background: linear-gradient(100deg, #35373b, #171717);
+    width: 14px;
+    height: 5px;
+    border-radius: 39%;
+    position: relative;
+	border: 1px groove rgb(20, 20, 20);
+    margin-top: -7px;
+    margin-left: 117px;
+    align-content: center;
+}
+#selecttxt {
+    font-family: arial;
+    font-size: 6px;
+    font-weight: 550;
+    margin-top: 5px;
+    margin-left: 82px;
+    position: relative;
+}
+#starttxt {
+    font-family: arial;
+    font-size: 6px;
+    font-weight: 550;
+    margin-top: -7px;
+    margin-left: 116px;
+    position: relative;
+}
+#sticker {
+    margin-top: 150px;
+    margin-left: -13px;
+    transform: rotate(25deg);
+    position: relative;
+}
+#iframe {
+    position:fixed
+}
+#speaker {
+    align-items:center;
+    margin-top: -14px;
+    margin-left: 172px;
+    position: absolute;
+}
+#speaker1 {
+    text-align:center;
+    color: inset rgb(20, 20, 20);
+    font-family: arial;
+    font-size: 7px;
+    margin-top: -1.5px;
+    position: relative;
+}
+#speaker2 {
+    text-align:center;
+    color: #511a70;
+    font-family: arial;
+    font-size: 7px;
+    margin-top: -8.5px;
+    margin-left: 6px;
+    position: relative;
+}
